@@ -14,7 +14,6 @@ for item in $data
         echo item: $item
     done
 IFS=$oldIFSÍ
-BLOCK
 
 function check_efficiency(){
     start=$(date +%s);
@@ -34,3 +33,6 @@ echo "It exists";
 else
 echo "It doesn't exist.";
 fi
+
+BLOCK
+
