@@ -5,6 +5,9 @@
 #
 #  Created by Faceless Garfield on 14-3-8.
 #
+
+#echo $#;
+printf "\033[1m\033[${colors[${board[l*$board_size+m]}]}m %4d\033[0m |"
 :<<BLOCK
 data="name,sex,rollno,location"
 oldIFS=$IFS
